@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     super.viewDidLoad()
 
     
-    
+    // proradi jebem ti mater
   }
 
 
