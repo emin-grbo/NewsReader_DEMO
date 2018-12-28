@@ -16,6 +16,7 @@ class ViewController: UIViewController {
   
   @IBOutlet weak var titleLabel: UILabel!
   @IBOutlet weak var contentLabel: UILabel!
+  @IBOutlet weak var imageView: UIImageView!
   
   
   let newsUrl = "https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=ad27cf29007846648b1d77ac7c5b41f1"
@@ -48,6 +49,16 @@ class ViewController: UIViewController {
   func updateLabels(json: JSON) {
     titleLabel.text = json["articles"][0]["title"].stringValue
     contentLabel.text = json["articles"][0]["description"].stringValue
+    
+    let imageURL = json["articles"][0]["urlToImage"].stringValue
+
+    Alamofire.request(imageURL).responseData {
+      response in
+      if let image = response.result.value {
+        let image = UIImage(data: image)
+        self.imageView.image = image
+      }
+    }
   }
   
   
