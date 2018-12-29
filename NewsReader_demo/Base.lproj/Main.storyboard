@@ -57,7 +57,6 @@
                             <constraint firstItem="6hh-I3-3DB" firstAttribute="top" secondItem="j27-Rb-Zb1" secondAttribute="bottom" constant="24" id="l0y-e7-eMJ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="j27-Rb-Zb1" secondAttribute="trailing" constant="16" id="mRz-3W-2W2"/>
                             <constraint firstItem="nyj-oW-va9" firstAttribute="top" secondItem="6hh-I3-3DB" secondAttribute="bottom" constant="24" id="ohv-13-hmw"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="nyj-oW-va9" secondAttribute="bottom" constant="40" id="qIb-1L-wOg"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
