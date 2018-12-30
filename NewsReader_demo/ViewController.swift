@@ -27,6 +27,7 @@ class ViewController: UIViewController {
   }
   
   
+  
   //MARK:- Getting the News ------------------------------------------------
   func getLatestNews(url: String) {
     
@@ -46,6 +47,7 @@ class ViewController: UIViewController {
     }
   }
   //------------------------------------------------------------------------
+  
   
   
   //MARK:- Update view ------------------------------------------------
