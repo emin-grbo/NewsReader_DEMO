@@ -13,6 +13,7 @@
 		D76955C121D6824400C9B08D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D76955BF21D6824400C9B08D /* Main.storyboard */; };
 		D76955C321D6824500C9B08D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D76955C221D6824500C9B08D /* Assets.xcassets */; };
 		D76955C621D6824500C9B08D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D76955C421D6824500C9B08D /* LaunchScreen.storyboard */; };
+		D7DFB69921D94E9C00448631 /* ImageView_customization.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DFB69821D94E9C00448631 /* ImageView_customization.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		D76955C221D6824500C9B08D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D76955C521D6824500C9B08D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D76955C721D6824500C9B08D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7DFB69821D94E9C00448631 /* ImageView_customization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView_customization.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 			children = (
 				D76955BB21D6824400C9B08D /* AppDelegate.swift */,
 				D76955BD21D6824400C9B08D /* ViewController.swift */,
+				D7DFB69821D94E9C00448631 /* ImageView_customization.swift */,
 				D76955BF21D6824400C9B08D /* Main.storyboard */,
 				D76955C221D6824500C9B08D /* Assets.xcassets */,
 				D76955C421D6824500C9B08D /* LaunchScreen.storyboard */,
@@ -204,6 +207,7 @@
 			files = (
 				D76955BE21D6824400C9B08D /* ViewController.swift in Sources */,
 				D76955BC21D6824400C9B08D /* AppDelegate.swift in Sources */,
+				D7DFB69921D94E9C00448631 /* ImageView_customization.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -24,6 +24,7 @@ class ViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     getLatestNews(url: newsUrl)
+
   }
   
   
@@ -52,7 +53,7 @@ class ViewController: UIViewController {
   
   //MARK:- Update view ------------------------------------------------
   func updateLabels(json: JSON) {
-    titleLabel.text = json["articles"][0]["title"].stringValue
+    titleLabel.text = json["articles"][0]["title"].stringValue.capitalized
     contentLabel.text = json["articles"][0]["description"].stringValue
     let imageURL = json["articles"][0]["urlToImage"].stringValue
     
@@ -63,6 +64,7 @@ class ViewController: UIViewController {
         let image = UIImage(data: image)
         // show thy image
         self.imageView.image = image
+        self.customizeImageView(image: self.imageView)
       }
     }
   }
