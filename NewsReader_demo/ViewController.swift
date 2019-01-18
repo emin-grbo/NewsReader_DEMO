@@ -38,7 +38,7 @@ class ViewController: UIViewController {
       if response.result.isSuccess {
         print("We are a GO")
         
-        // Get the json from results, and assign it to a variable
+  // Get the json from results, and assign it to a variable
         let newsJSON: JSON = JSON(response.result.value ?? "default")
         self.updateLabels(json: newsJSON)
         print(newsJSON)
